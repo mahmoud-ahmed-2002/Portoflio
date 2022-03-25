@@ -1,0 +1,17 @@
+.skils {
+ .progres {
+    background: #1a1a1a;
+    height: 13px;
+    border-radius: 10px;
+    overflow: hidden; 
+    .progres-width {
+      height: 100%;
+      width: 0;
+      background: #f5b535;
+      display: block; }
+  }
+  strong {
+    color: white;
+    padding: 15px; }
+}
+  

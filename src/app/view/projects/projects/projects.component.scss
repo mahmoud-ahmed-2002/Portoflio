@@ -1,0 +1,100 @@
+.projects {
+    font-size: 20px;
+    font-weight: bold; 
+    h3{color: white;}
+    .position-relative {
+      border-radius: 20px;
+    .over {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -100%;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      background: #f5b535;
+      opacity: .8;
+      transition: 0.5s;
+      border-radius: 20px;
+    }
+    }
+    .position-relative:hover .over {
+      left: 0; border-radius: 20px;}
+      img{transition:.5s .5s;border-radius: 20px;object-fit: cover;}
+      .position-relative:hover img {
+        transform: scale(1.5);border-radius: 20px; }
+        .gray {
+          &:hover {
+            color: white !important; 
+          }
+          cursor: pointer;
+          transition: .5s;
+          color: black !important; }
+         
+          }
+          .popupone {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: #f5b535;
+            opacity: .95;
+            z-index: 11111;
+            overflow: auto;
+            p {
+              // font-weight: bold;
+              line-height: 30px;
+              font-size: 20px;
+              text-transform: uppercase;
+             }
+            i {
+              &:hover {
+                
+                  background: black;
+                  color: white; }
+              
+              position: absolute;
+              right: 15px;
+              font-size: 25px;
+              top: 15px;
+              border: 2px solid black;
+              border-radius: 6px;
+              padding: 5px; 
+              cursor: pointer;
+            }
+              /* width */
+.scrl::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.scrl::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.scrl::-webkit-scrollbar-thumb {
+  background: #f5b535;; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f5b535;
+}
+          }
+          @media (max-width: 768px) {
+            .popupone i {
+              font-size: 10px; }
+            .popupone .inner p, .popupone .inner h3 {
+              font-size: small; } }
+
+   
+
+
+
+  
+
+

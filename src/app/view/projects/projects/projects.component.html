@@ -1,0 +1,241 @@
+<section  style="min-height: 100vh;" class="projects  text-center pt-5 " >
+    <div class="container">
+        <h2 class="mainH2 mb-5">Projects</h2>
+        <div class="row">
+            <div class="col-md-6 mb-5">
+                <div class="position-relative overflow-hidden">
+                    <img style="height:285px;" src="assets/undraw_Social_media_re_w12q.png" class="w-100" alt="">
+                    <div class="over d-flex justify-content-center align-items-center">
+                    <div>
+                            <h3 class="mb-3">Grud</h3>
+                            <div class="d-flex justify-content-center">
+                                    <div class="gray" (click)="modalThree=true">
+                                        <i class="fas fa-tools"></i>
+                                        <p>About</p>
+                                    </div>
+                                    <a href="https://github.com/MohhamedHassan/fakebook.git" target="_blank" class="mx-3 gray">
+                                        <i class="fas fa-code"></i>
+                                        <p>Code</p>
+                                    </a>
+                                    <a href="https://mohhamedhassan.github.io/fakebook/" class="gray" target="_blanket">
+                                        <i class="far fa-eye"></i>
+                                        <p>Live</p>
+                                    </a>
+    
+                                </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="col-md-6 mb-5">
+                <div class="position-relative overflow-hidden">
+                    <img style="height:285px;" src="assets/restaurant.png" class="w-100" alt="">
+                    <div class="over d-flex justify-content-center align-items-center">
+                    <div>
+                            <h3 class="mb-3">Pizza Hut Clone</h3>
+                            <div class="d-flex justify-content-center">
+                                    <div class="gray" (click)="modalOne=true">
+                                        <i class="fas fa-tools"></i>
+                                        <p>About</p>
+                                    </div>
+                                    <a href="https://github.com/MohhamedHassan/Restaurant" target="_blank" class="mx-3 gray">
+                                        <i class="fas fa-code"></i>
+                                        <p>Code</p>
+                                    </a>
+                                    <a href="https://mohhamedhassan.github.io/Restaurant/" class="gray" target="_blanket">
+                                        <i class="far fa-eye"></i>
+                                        <p>Live</p>
+                                    </a>
+    
+                                </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="position-relative overflow-hidden">
+                    <img style="height:285px;" src="assets/cvbuilder.png" class="w-100" alt="">
+                    <div class="over d-flex justify-content-center align-items-center">
+                    <div>
+                            <h3 class="mb-3">CV Builder</h3>
+                            <div class="d-flex justify-content-center">
+                                    <div class="gray" (click)="modalFour=true">
+                                        <i class="fas fa-tools"></i>
+                                        <p>About</p>
+                                    </div>
+                                    <a href="https://github.com/MohhamedHassan/cv-builder.git" target="_blank" class="mx-3 gray">
+                                        <i class="fas fa-code"></i>
+                                        <p>Code</p>
+                                    </a>
+                                    <a href="https://mohhamedhassan.github.io/cv-builder/home" class="gray" target="_blanket">
+                                        <i class="far fa-eye"></i>
+                                        <p>Live</p>
+                                    </a>
+    
+                                </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="position-relative overflow-hidden">
+                    <img style="height:285px;border-radius: 20px;" src="assets/goodreads.png" class="w-100" alt="">
+                    <div class="over d-flex justify-content-center align-items-center">
+                    <div>
+                            <h3 class="mb-3">GoodReads</h3>
+                            <div class="d-flex justify-content-center">
+                                    <div class="gray" (click)="modalTwo = true">
+                                        <i class="fas fa-tools"></i>
+                                        <p>About</p>
+                                    </div>
+                                    <a href="https://github.com/MohhamedHassan/goodReads" target="_blank" class="mx-3 gray">
+                                        <i class="fas fa-code"></i>
+                                        <p>Code</p>
+                                    </a>
+                                    <a href="https://mohhamedhassan.github.io/goodReads/" class="gray" target="_blanket">
+                                        <i class="far fa-eye"></i>
+                                        <p>Live</p>
+                                    </a>
+    
+                                </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div 
+*ngIf="modalOne"
+class="popupone one d-flex justify-content-center align-items-center">
+    <div class="inner bg-white w-75 p-4 position-relative">
+        <i class="fas fa-times" (click)="modalOne=false"></i>
+       <div style="height:200px;overflow: auto;margin-top: 30px;" class="scrl mr-0 mr-md-5">
+        <h3 class="mb-2 font-weight-bold">Project Name:</h3>
+        <p >RestaurantApp</p>
+        <h3 class="font-weight-bold">About:</h3>
+        <p style="line-height:30px" class="pr-3">
+           
+          
+There is a control panel that enables the admin to add, delete and modify products and see orders. Users can add products to the cart and then create orders, whether he is logged in or not. If the user creates an account, he can see the orders he created and his account information <br>
+Admin Account : <span style="text-transform: lowercase !important;">admin@admin.com </span> <br>
+Password : <span style="text-transform: lowercase !important;">adminadmin </span> 
+        </p>
+        <h3 class="font-weight-bold">tools:</h3>
+        <p style="line-height:30px">
+           
+            html5, css3, bootstrap, scss, angular +2, angular material, ng bootstrap, ngx toaster 
+        </p>
+        <h3 class="font-weight-bold">Backend:</h3>
+        <p style="line-height:30px">
+           
+           Nodejs (by another developer)
+            
+        </p>
+       </div>
+
+    </div>
+</div>
+<div 
+*ngIf="modalTwo"
+class="popupone one d-flex justify-content-center align-items-center">
+    <div class="inner bg-white w-75 p-4 position-relative">
+        <i class="fas fa-times" (click)="modalTwo=false"></i>
+       <div style="height:200px;overflow: auto;margin-top: 30px;" class="scrl mr-0 mr-md-5">
+        <h3 class="mb-2 font-weight-bold">Project Name:</h3>
+        <p >GoodReads</p>
+        <h3 class="font-weight-bold">About:</h3>
+        <p style="line-height:30px" class="pr-3">
+           
+     
+It is a book-sharing site. Each user can create an account and add information about his book, such as the book's picture, the name of the book, and the description of the book. He must have an account to do so. All users' books and reviews appear on the home page. Each user can rate the books of others from one to five.
+And the user can see his books and personal information on his personal page
+        </p>
+        <h3 class="font-weight-bold">tools:</h3>
+        <p style="line-height:30px">
+           
+            html5, css3, bootstrap, scss, angular +2, angular material, ng bootstrap, ngx toaster ,
+            
+        </p>
+        <h3 class="font-weight-bold">Backend:</h3>
+        <p style="line-height:30px">
+           
+           Nodejs (by another developer)
+            
+        </p>
+       </div>
+
+    </div>
+</div>
+<div 
+*ngIf="modalThree"
+class="popupone one d-flex justify-content-center align-items-center">
+    <div class="inner bg-white w-75 p-4 position-relative">
+        <i class="fas fa-times" (click)="modalThree=false"></i>
+       <div style="height:200px;overflow: auto;margin-top: 30px;" class="scrl mr-0 mr-md-5">
+        <h3 class="mb-2 font-weight-bold">Project Name:</h3>
+        <p >Facebook Clone</p>
+        <h3 class="font-weight-bold">About:</h3>
+           <ul>
+               <li>The website is available in four languages: Arabic, Turkish, German and English</li>
+               <li>the user can add  edit and delete profile and cover picture</li>
+               <li>the user can add edit and delete person personal info</li>
+               <li>user can add  edit and delete post with text or image</li>
+               <li>user can follow other useres </li>
+               <li>there is a home page to show user's following posts</li>
+               <li>user can make a comment or reactions ( sad , like , love , wow , angry , haha )</li>
+               <li>realtime notifications for reactions comments and following</li>
+           </ul>            
+             
+        
+        <h3 class="font-weight-bold">tools:</h3>
+        <p style="line-height:30px">
+           
+            Html, css, bootstrap, sass, Typescript, angular , Fontawesome ,ngxbootstrap ,angular material, ngx skeleton loder,swiper js , socket io , ngxTranslate
+            
+        </p>
+        <h3 class="font-weight-bold">Backend:</h3>
+        <p style="line-height:30px">
+           
+           Nodejs (by another developer)
+            
+        </p>
+       </div>
+
+    </div>
+</div>
+<div 
+*ngIf="modalFour"
+class="popupone one d-flex justify-content-center align-items-center">
+    <div class="inner bg-white w-75 p-4 position-relative">
+        <i class="fas fa-times" (click)="modalFour=false"></i>
+       <div style="height:200px;overflow: auto;margin-top: 30px;" class="scrl mr-0 mr-md-5">
+        <h3 class="mb-2 font-weight-bold">Project Name:</h3>
+        <p >CV Builder</p>
+        <h3 class="font-weight-bold">About:</h3>
+           <ul>
+               <li>User can Build  resume in three simple steps</li>
+               <li>Fill in the Blanks</li>
+               <li>Pick a template</li>
+               <li>Download  CV</li>
+           </ul>            
+             
+        
+        <h3 class="font-weight-bold">tools:</h3>
+        <p style="line-height:30px">
+           
+            Html, css, bootstrap, Scss, Typescript, angular , Fontawesome , ,angular material,swiper js , Css2PDF
+            
+        </p>
+        <h3 class="font-weight-bold">Backend:</h3>
+        <p style="line-height:30px">
+           
+           Nodejs (by another developer)
+            
+        </p>
+       </div>
+
+    </div>
+</div>

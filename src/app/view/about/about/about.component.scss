@@ -1,0 +1,39 @@
+.about {
+    a {color:black}
+    .gry {
+        &:hover {
+            color:#f5b535;
+        }
+        color:gray;
+        transition: .5s;
+    }
+    .completed
+    {
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .yellow {
+        color:#f5b535;
+    }
+    .button {
+       width: 400px;
+    }
+    .first  {
+        span:first-child {
+            display: inline-block;
+            width: 65px;
+        
+    }
+ span:last-child {
+        display: inline-block;
+        width: 250px;
+    
+}
+.d-flex {margin-bottom: 20px;}
+    }
+
+
+}
+a.button {transition: .5s;}
+a.button:hover{color:#f5b535 !important;text-decoration: none;}
